@@ -8,6 +8,17 @@ type MediaImageProps = {
   objectFit?: 'cover' | 'contain'
 }
 
+/** Resolve /images/... against Vite base (needed for GitHub Pages). */
+function resolvePublicSrc(src: string) {
+  if (!src) return src
+  if (/^https?:\/\//i.test(src) || src.startsWith('data:')) return src
+  const base = import.meta.env.BASE_URL || '/'
+  if (src.startsWith('/')) {
+    return `${base}${src.slice(1)}`
+  }
+  return `${base}${src}`
+}
+
 export function MediaImage({
   src,
   alt = '',
@@ -16,10 +27,11 @@ export function MediaImage({
   objectFit = 'cover',
 }: MediaImageProps) {
   const [failed, setFailed] = useState(false)
+  const resolvedSrc = resolvePublicSrc(src)
 
   useEffect(() => {
     setFailed(false)
-  }, [src])
+  }, [resolvedSrc])
 
   if (!src || failed) {
     return (
@@ -41,8 +53,8 @@ export function MediaImage({
       className={`relative overflow-hidden border border-line bg-placeholder ${aspect} ${className}`.trim()}
     >
       <img
-        key={src}
-        src={src}
+        key={resolvedSrc}
+        src={resolvedSrc}
         alt={alt}
         className={`absolute inset-0 h-full w-full ${
           objectFit === 'contain' ? 'object-contain bg-bg p-2' : 'object-cover'
