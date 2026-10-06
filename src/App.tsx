@@ -1,4 +1,4 @@
-import portfolio from '../data/portfolio.json'
+import portfolio from './data/portfolio.json'
 import { Navigation } from './components/Navigation'
 import { Introduction } from './components/sections/Introduction'
 import { AboutMe } from './components/sections/AboutMe'

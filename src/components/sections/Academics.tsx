@@ -27,9 +27,7 @@ export function Academics({ data }: Props) {
                 />
                 <div>
                   <div className="flex flex-col gap-2 md:flex-row md:items-baseline md:justify-between md:gap-6">
-                    <h3 className="font-display text-2xl font-light tracking-wide-title text-ink md:text-3xl">
-                      {school.name}
-                    </h3>
+                    <h3 className="text-heading-item text-ink">{school.name}</h3>
                     <p className="shrink-0 font-body text-[11px] uppercase tracking-editorial text-accent">
                       {school.grades}
                     </p>
@@ -39,7 +37,7 @@ export function Academics({ data }: Props) {
                     <span className="mx-2 text-line">·</span>
                     {school.period}
                   </p>
-                  <p className="mt-3 max-w-2xl font-body text-sm font-light leading-relaxed text-ink-muted">
+                  <p className="mt-3 max-w-2xl text-body-readable text-ink-muted">
                     {school.address}
                   </p>
                 </div>

@@ -81,15 +81,15 @@
   - 소개 문단: Hello, my name is John Kim, a senior at St. Andrew’s School (DE). My life has been shaped  by different experiences that eventually resonated with each other as if three tuning forks were vibrating at a different frequency. Spending my teenage years in Dubai, raised in Korea, and studying in Delaware, I sought to make connections between seemingly different cultures and found motivation in helping others like me who struggled to assimilate. Throughout my life, I valued the idea of belonging where difference shouldn’t be the reason for seclusion. Fostered through these experiences, I earned the role of Form Council and East Asian Affinity group co-head to weave the gap among the students, creating bonds among disparate backgrounds. This goal formed from three different cultural identities was not only limited in social life at St. Andrew’s, but also shown through my interest towards rowing and violin. This led to my interest towards interdisciplinary Chemistry where innovative lab findings translate to the positive impact in the society holistically. Looking ahead, I hope to continue building communities and pursuing scientific discovery with the same belief that has guided me across the cultures, where differences become most meaningful when they bring us closer together.
     - 작은 Contact Form Card: 
     Name: John Yohwan Kim
-    Email: johnyohwankim@caelumprep.com
-    Tel: (+82)10-6251-6701
-    Address: 37-48 Jamwon-Ro, Seoul, South Korea
+    Email: jykim@standrews-de.org
+    Tel: (+1) 302-203-7350
+    Address: Gwangpyeong-ro 51 gil , Gangnam-gu, Seoul, Republic of Korea, 06348
 - **레이아웃 지시**: 뷰포트 전체를 채우는 히어로 섹션. 프로파일 이미지를 중앙에 배치. 소개 문단을 프로파일 이미지 왼쪽에 텍스트로 배치. 프로파일 이미지 오른쪽에 Contact Form Card 배치.
 
 
 #### 4.1.2 Introduction Video
 - **역할**: Introudction Video 보여주기.
-- https://www.youtube.com/watch?v=6mgNPUZqAmw 유투브 미디어 플레이어 삽입.
+- https://www.youtube.com/watch?v=dyMeT3jlYXE 유투브 미디어 플레이어 삽입.
 
 
 ### 4.2 Academics
@@ -120,15 +120,46 @@ First Violin Section in the Orchestra / St. Andrew’s School 			Sep 2023 ~ Pres
 Assistant Concert Master 							              Sep 2024 ~ May 2025
 Second chair     					                     Sep 2023 ~ May 2024 & Sep 2025 ~ Present
 Selected as Second Chair and Assistant Concert Master based on musical proficiency and leadership within the violin section, leading violin sectionals and assisted with ensemble preparation for concerts, ceremonies, and chapel performances.
+A member of Chamber Society is selected for the school's premier chamber ensemble based on musical proficiency and performance ability, playing for chapel services and Awards Night during the Graduation week.
 
 - image: EAA.jpg
 East Asian Affinity / St. Andrew’s School 					Sep 2025 ~ Present
 Co-head
 Fostered cultural awareness and strengthened engagement among East Asian students and the broader school community, co-leading initiatives promoting East Asian culture, inclusion, and cross-cultural dialogue across campus such as Mid-Autumn Festival and Lunar New Year.
 Collaborated with faculty, dining services, and diversity leadership to organize culturally authentic celebrations and educational programming about East Asian traditions and heritage.
+
 IV, V & VI Form Council / St. Andrew’s School 				Sep 2024 ~ Present
 Grade-Elected Leader
 Organized grade-level social events and community-building initiatives including Silent Disco, Semi-Formal, Open Mic Nights, Prom, and themed weekend events, leading event logistics, setup operations, and school-wide communications to maximize student engagement.
+
+Robotics Club 									    Sep 2025 ~ Present
+Founding Co-head
+Co-founded the Robotics Club, recruiting members and establishing organizational structures for communication, project management, and collaboration, leading the design and development of the "Moving Table" robotics project, coordinating engineering tasks across team members.
+
+Cardinal Society							           		 Sep 2023 ~ May 2024
+Member
+Assisted admissions staff during open houses, revisit days, and prospective student events, serving as a liaison between prospective families and the school community.
+
+Math Team								         	Sep 2023 ~ May 2025
+Member
+Earned Division Champion honors during freshman year mathematics competitions and received a silver medal for winning 2nd place in the Delaware Secondary Math League for Freshman A Division. 
+
+Math Help									     Sep 2024 ~Present
+Member
+Coordinated peer tutoring opportunities by connecting students with qualified math tutors based on individual academic needs, supporting students in subjects ranging from Algebra I to AS Calculus BC.
+
+Investment Club					    				     Sep 2024 ~ Present
+Member
+Conducted collaborative investment research by evaluating corporate earnings reports and macroeconomic data, assessing how AI-related capital expenditures influenced market performance and investor sentiment.
+
+Interfaith Council				   				     Sep 2025 ~ Present
+Member
+Collaborated with council members to develop faith-based initiatives across the school community, running a student question box of anonymous discussions on religious belief, and spirituality with the School Reverend.
+
+Emirates Youth Symphony Orchestra (EYSO) in Dubai 		            		  Sep 2018 ~ Jan 2020
+https://youtube.com/shorts/LfdsZ7l3edE 
+As a First Violin member of the Emirates Youth Symphony Orchestra, performed the UAE National Anthem at the National Museum of Dubai before Sheikh Mohammed bin Rashid Al Maktoum and other distinguished guests.
+
 
 - image: RowingV.jpg
 (Varsity) Rowing Crew								             Mar 2026 ~ Present
@@ -153,6 +184,7 @@ Participated in IDR (Independence Day Regatta) for both 2X and 1X U17 division.
 - image: placeholder
 Biosense AI            							 July 2026 ~ Present
 Project Director
+Project Url: https://biosensegovai.vercel.app/ 
 Led the development of an AI platform that integrates Korea Disease Control and Prevention Agency (KDCA) public health datasets to analyze Korean-specific circulating tumor DNA (ctDNA) characteristics.
 Co-designed biomarker-informed biosensor recommendations by matching ctDNA molecular profiles with chemically compatible biosensing technologies for early cancer detection.
 
@@ -194,14 +226,17 @@ At Misari Para-Rowing Event for the disabled eager to learn rowing, as a leading
 - **Reference Image Folder**: 06 Research&Publication 폴더 참조, 파일 이름 확인
 - **레이아웃 지시**: 학술적 신뢰감을 위해 이 섹션만 상대적으로 정돈된 그리드(대칭)로. 논문 표지/포스터 이미지를 썸네일로, 클릭 시 상세 텍스트 확장(아코디언 또는 모달).
 
-- image: ConcordR.png
 The Concord Review 							         Aug 2025 ~ Nov 2025
 (https://docs.google.com/document/d/1Tize74rhQJYRlJm9oEcRvXisDvs6CxX_KGKHywu20iE/edit?tab=t.0)
 Submitted an original research essay, "The Mirage of the Middle East," about how the idea of Orientalism shifted across three distinct time periods in human history, and was waitlisted for publication consideration by The Concord Review.
 
-- image: Pioneer.png
 Pioneer Research 							        June 2026 ~ Aug 2026
+(https://drive.google.com/file/d/1qWpFFnbkIFU2Iq6Ub6lpoJEYuHTSYauP/view)
 Completed a peer-reviewed original research paper, “From Multiomic Biomarkers to Molecular Recognition: A Framework for Next-Generation Liquid Biopsy Biosensors,” proposing a chemistry-based framework integrating multiomic biomarkers with molecular recognition to guide next-generation biosensor design. 
+
+West Makes East: Greek Imagery of the Persian Empire		          July 2026 ~Aug 2026
+(https://sshjournal.com/index.php/sshj/article/view/2423)
+Published an original research article in Social Science and History Journal about how Western identity shaped their own identity through the juxtaposition of Middle Eastern identity, forming a false image of the East.
 
 
 
@@ -242,7 +277,7 @@ Chungju Mayor's Cup National Sport-for-All Rowing Tournament - 4X division (U15)
 
 
 ### 4.8 (선택) Closing / Contact
-- John Yohwan Kim, johnyohwankim@caelumprep.com
+- John Yohwan Kim, jykim@standrews-de.org
 - 이메일, 소셜 링크 등 마무리 섹션. 인트로와 대칭되는 미니멀한 타이포 중심 레이아웃.
 
 ---

@@ -22,22 +22,20 @@ function HonorGroup({
   return (
     <div className="grid gap-8 border-t border-line pt-10 lg:grid-cols-12 lg:gap-10">
       <div className="lg:col-span-5">
-        <h3 className="font-display text-2xl font-light tracking-wide-title text-ink md:text-3xl">
-          {title}
-        </h3>
+        <h3 className="text-heading-item text-ink">{title}</h3>
         <ul className="mt-6 space-y-5">
           {items.map((item) => (
             <li key={item.title}>
-              <p className="font-body text-sm font-normal leading-snug text-ink">
+              <p className="font-body text-[1rem] font-normal leading-snug text-ink">
                 {item.title}
               </p>
-              <p className="mt-1 font-body text-xs text-ink-muted">
+              <p className="mt-1 font-body text-[0.8rem] text-ink-muted">
                 {[item.issuer, item.date, item.grade]
                   .filter(Boolean)
                   .join(' · ')}
               </p>
               {item.description ? (
-                <p className="mt-2 font-body text-sm font-light leading-relaxed text-ink-muted">
+                <p className="mt-2 text-body-readable text-ink-muted">
                   {item.description}
                 </p>
               ) : null}

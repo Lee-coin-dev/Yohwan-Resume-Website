@@ -15,54 +15,57 @@ function ProjectSpread({
 }) {
   const reverse = index % 2 === 1
   const media = project.media[0]
+  const hasVisual = Boolean(project.embedUrl || media)
 
   return (
     <FadeIn
       delay={0.05}
-      className={`grid items-center gap-8 border-t border-line pt-12 md:grid-cols-12 md:gap-10 md:pt-16 ${
-        reverse ? '' : ''
+      className={`grid items-center gap-8 border-t border-line pt-12 md:gap-10 md:pt-16 ${
+        hasVisual ? 'md:grid-cols-12' : 'md:grid-cols-1'
       }`}
     >
-      <div
-        className={`md:col-span-7 ${reverse ? 'md:order-2 md:col-start-6' : 'md:col-start-1'}`}
-      >
-        {project.embedUrl ? (
-          <div className="relative aspect-video w-full overflow-hidden border border-line bg-placeholder">
-            <iframe
-              src={project.embedUrl}
-              title={project.title}
-              className="absolute inset-0 h-full w-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+      {hasVisual ? (
+        <div
+          className={`md:col-span-7 ${reverse ? 'md:order-2 md:col-start-6' : 'md:col-start-1'}`}
+        >
+          {project.embedUrl ? (
+            <div className="relative aspect-video w-full overflow-hidden border border-line bg-placeholder">
+              <iframe
+                src={project.embedUrl}
+                title={project.title}
+                className="absolute inset-0 h-full w-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          ) : (
+            <ImagePlaceholder
+              src={media!}
+              alt={project.title}
+              aspect="aspect-[16/10]"
             />
-          </div>
-        ) : (
-          <ImagePlaceholder
-            src={media ?? '/images/projects/placeholder.png'}
-            alt={project.title}
-            aspect="aspect-[16/10]"
-          />
-        )}
-      </div>
+          )}
+        </div>
+      ) : null}
 
       <div
-        className={`md:col-span-5 ${reverse ? 'md:order-1 md:col-start-1' : 'md:col-start-8'}`}
+        className={
+          hasVisual
+            ? `md:col-span-5 ${reverse ? 'md:order-1 md:col-start-1' : 'md:col-start-8'}`
+            : 'max-w-2xl'
+        }
       >
         <p className="font-body text-[11px] uppercase tracking-editorial text-accent">
           {project.period}
         </p>
-        <h3 className="mt-3 font-display text-3xl font-light leading-tight tracking-wide-title text-ink md:text-4xl">
-          {project.title}
-        </h3>
-        <p className="mt-2 font-body text-sm text-ink-muted">{project.role}</p>
+        <h3 className="mt-3 text-heading-item text-ink">{project.title}</h3>
+        <p className="mt-2 font-body text-[0.95rem] text-ink-muted">{project.role}</p>
         {project.tools.length ? (
-          <p className="mt-3 font-body text-xs uppercase tracking-editorial text-ink-muted">
+          <p className="mt-3 font-body text-[0.7rem] uppercase tracking-editorial text-ink-muted">
             {project.tools.join('  ·  ')}
           </p>
         ) : null}
-        <p className="mt-5 font-body text-sm font-light leading-relaxed text-ink-muted">
-          {project.summary}
-        </p>
+        <p className="mt-5 text-body-readable text-ink-muted">{project.summary}</p>
         {project.link ? (
           <a
             href={project.link}

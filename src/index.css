@@ -29,7 +29,8 @@
     color: var(--color-ink);
     font-family: var(--font-body);
     font-weight: 300;
-    line-height: 1.7;
+    font-size: 16px;
+    line-height: 1.65;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -60,10 +61,37 @@
   }
 
   .tracking-editorial {
-    letter-spacing: 0.18em;
+    letter-spacing: 0.19em;
   }
 
   .tracking-wide-title {
-    letter-spacing: 0.08em;
+    letter-spacing: 0.04em;
+  }
+
+  .tracking-tight-display {
+    letter-spacing: -0.045em;
+  }
+
+  .text-heading-section {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(2.6rem, 5.5vw, 5.25rem);
+    line-height: 0.92;
+    letter-spacing: -0.045em;
+  }
+
+  .text-heading-item {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(1.75rem, 2.6vw, 2.5rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+
+  .text-body-readable {
+    font-family: var(--font-body);
+    font-weight: 300;
+    font-size: clamp(0.95rem, 1.05vw, 1.0625rem);
+    line-height: 1.7;
   }
 }

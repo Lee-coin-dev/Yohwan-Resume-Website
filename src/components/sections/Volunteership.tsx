@@ -17,19 +17,17 @@ export function Volunteership({ data }: Props) {
           {data.map((item, index) => (
             <FadeIn key={item.title} delay={index * 0.08}>
               <li>
-                <h3 className="font-display text-3xl font-light leading-tight tracking-wide-title text-ink md:text-5xl">
+                <h3 className="text-heading-item text-ink md:text-[clamp(2rem,3vw,3rem)]">
                   {item.title}
                 </h3>
-                <p className="mt-4 font-body text-sm text-ink-muted md:text-base">
+                <p className="mt-4 font-body text-[0.95rem] text-ink-muted">
                   <span className="text-accent">{item.role}</span>
                   <span className="mx-2 text-line">·</span>
                   {item.org}
                   <span className="mx-2 text-line">·</span>
                   {item.period}
                 </p>
-                <p className="mt-6 font-body text-sm font-light leading-relaxed text-ink-muted md:text-[15px]">
-                  {item.result}
-                </p>
+                <p className="mt-6 text-body-readable text-ink-muted">{item.result}</p>
                 {item.link ? (
                   <a
                     href={item.link}

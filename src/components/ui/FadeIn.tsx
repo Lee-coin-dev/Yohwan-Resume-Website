@@ -41,15 +41,13 @@ export function SectionHeading({
   title: string
 }) {
   return (
-    <div className="mb-12 md:mb-16">
+    <div className="mb-12 md:mb-16 lg:mb-20">
       {eyebrow ? (
-        <p className="mb-3 font-body text-[11px] font-normal uppercase tracking-editorial text-accent">
+        <p className="mb-3 font-body text-[0.64rem] font-medium uppercase tracking-editorial text-ink">
           {eyebrow}
         </p>
       ) : null}
-      <h2 className="font-display text-4xl font-light tracking-wide-title text-ink md:text-5xl lg:text-6xl">
-        {title}
-      </h2>
+      <h2 className="max-w-[14ch] text-heading-section text-ink">{title}</h2>
     </div>
   )
 }

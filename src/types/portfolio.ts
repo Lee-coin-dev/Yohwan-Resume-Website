@@ -39,7 +39,8 @@ export type Activity = {
     description: string
   }
   media: string[]
-  layout: 'left-large' | 'right-offset' | 'full-bleed' | 'left-small'
+  layout: 'left-large' | 'right-offset' | 'full-bleed' | 'left-small' | 'text-only'
+  link?: string | null
 }
 
 export type Project = {

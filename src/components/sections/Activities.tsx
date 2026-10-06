@@ -7,7 +7,17 @@ type Props = {
 }
 
 function ActivityBlock({ item, index }: { item: Activity; index: number }) {
-  const image = item.media[0] ?? '/images/activities/placeholder.png'
+  if (item.layout === 'text-only' || !item.media[0]) {
+    return (
+      <FadeIn delay={index * 0.04} className="border-t border-line pt-8">
+        <div className="max-w-3xl">
+          <ActivityText item={item} />
+        </div>
+      </FadeIn>
+    )
+  }
+
+  const image = item.media[0]
 
   if (item.layout === 'full-bleed') {
     return (
@@ -92,12 +102,10 @@ function ActivityText({ item }: { item: Activity }) {
         <span className="mx-2 text-line">·</span>
         {item.period}
       </p>
-      <h3 className="mt-3 font-display text-3xl font-light leading-tight tracking-wide-title text-ink md:text-4xl">
-        {item.title}
-      </h3>
-      <p className="mt-2 font-body text-sm text-ink-muted">{item.role}</p>
+      <h3 className="mt-3 text-heading-item text-ink">{item.title}</h3>
+      <p className="mt-2 font-body text-[0.95rem] text-ink-muted">{item.role}</p>
       {item.roles?.length ? (
-        <ul className="mt-3 space-y-1 font-body text-xs text-ink-muted">
+        <ul className="mt-3 space-y-1 font-body text-[0.85rem] text-ink-muted">
           {item.roles.map((role) => (
             <li key={role.title}>
               {role.title} — {role.period}
@@ -105,9 +113,17 @@ function ActivityText({ item }: { item: Activity }) {
           ))}
         </ul>
       ) : null}
-      <p className="mt-4 font-body text-sm font-light leading-relaxed text-ink-muted">
-        {item.description}
-      </p>
+      <p className="mt-4 text-body-readable text-ink-muted">{item.description}</p>
+      {item.link ? (
+        <a
+          href={item.link}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-4 inline-block font-body text-[11px] uppercase tracking-editorial text-accent underline decoration-line underline-offset-4 hover:text-ink"
+        >
+          Watch Video
+        </a>
+      ) : null}
       {item.related ? (
         <div className="mt-8 border-t border-line pt-6">
           <p className="font-body text-[11px] uppercase tracking-editorial text-accent">
@@ -115,13 +131,13 @@ function ActivityText({ item }: { item: Activity }) {
             <span className="mx-2 text-line">·</span>
             {item.related.period}
           </p>
-          <h4 className="mt-2 font-display text-2xl font-light tracking-wide-title text-ink">
+          <h4 className="mt-2 font-display text-[clamp(1.4rem,2vw,1.85rem)] font-light leading-tight tracking-[-0.02em] text-ink">
             {item.related.title}
           </h4>
-          <p className="mt-1 font-body text-sm text-ink-muted">
+          <p className="mt-1 font-body text-[0.95rem] text-ink-muted">
             {item.related.role}
           </p>
-          <p className="mt-3 font-body text-sm font-light leading-relaxed text-ink-muted">
+          <p className="mt-3 text-body-readable text-ink-muted">
             {item.related.description}
           </p>
         </div>
@@ -131,6 +147,30 @@ function ActivityText({ item }: { item: Activity }) {
 }
 
 export function Activities({ data }: Props) {
+  // Preserve original order; group consecutive text-only items for tighter spacing
+  const blocks: Array<
+    | { type: 'featured'; item: Activity }
+    | { type: 'text-group'; items: Activity[] }
+  > = []
+  let textBuffer: Activity[] = []
+
+  const flushText = () => {
+    if (textBuffer.length) {
+      blocks.push({ type: 'text-group', items: textBuffer })
+      textBuffer = []
+    }
+  }
+
+  for (const item of data) {
+    if (item.layout === 'text-only' || !item.media[0]) {
+      textBuffer.push(item)
+    } else {
+      flushText()
+      blocks.push({ type: 'featured', item })
+    }
+  }
+  flushText()
+
   return (
     <section id="activities" className="section-pad px-6 md:px-12 lg:px-16">
       <div className="mx-auto max-w-6xl">
@@ -138,9 +178,27 @@ export function Activities({ data }: Props) {
           <SectionHeading eyebrow="Experience" title="Activities" />
         </FadeIn>
         <div className="space-y-24 md:space-y-32">
-          {data.map((item, index) => (
-            <ActivityBlock key={item.title} item={item} index={index} />
-          ))}
+          {blocks.map((block, index) => {
+            if (block.type === 'featured') {
+              return (
+                <ActivityBlock
+                  key={block.item.title}
+                  item={block.item}
+                  index={index}
+                />
+              )
+            }
+            return (
+              <div
+                key={`text-group-${index}`}
+                className="space-y-10 md:space-y-12"
+              >
+                {block.items.map((item, i) => (
+                  <ActivityBlock key={item.title} item={item} index={i} />
+                ))}
+              </div>
+            )
+          })}
         </div>
       </div>
     </section>

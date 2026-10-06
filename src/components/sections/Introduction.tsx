@@ -45,7 +45,7 @@ export function Introduction({ data }: Props) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: 'easeOut', delay: 0.45 }}
-          className="mt-8 max-w-md font-body text-sm font-light leading-relaxed text-ink-muted md:text-base"
+          className="mt-8 max-w-md text-body-readable text-ink-muted md:text-[1.05rem]"
         >
           {data.bio}
         </motion.p>
