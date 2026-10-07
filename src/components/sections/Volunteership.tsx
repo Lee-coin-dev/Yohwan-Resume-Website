@@ -1,4 +1,5 @@
 import { FadeIn, SectionHeading } from '../ui/FadeIn'
+import { ActionLink } from '../ui/ActionLink'
 import type { PortfolioData } from '../../types/portfolio'
 
 type Props = {
@@ -29,14 +30,9 @@ export function Volunteership({ data }: Props) {
                 </p>
                 <p className="mt-6 text-body-readable text-ink-muted">{item.result}</p>
                 {item.link ? (
-                  <a
-                    href={item.link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-5 inline-block font-body text-[11px] uppercase tracking-editorial text-accent underline decoration-line underline-offset-4 hover:text-ink"
-                  >
+                  <ActionLink href={item.link} className="mt-5">
                     Watch Video
-                  </a>
+                  </ActionLink>
                 ) : null}
               </li>
             </FadeIn>

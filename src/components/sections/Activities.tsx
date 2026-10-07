@@ -1,4 +1,5 @@
 import { FadeIn, SectionHeading } from '../ui/FadeIn'
+import { ActionLink } from '../ui/ActionLink'
 import { ImagePlaceholder } from '../ui/ImagePlaceholder'
 import type { Activity, PortfolioData } from '../../types/portfolio'
 
@@ -115,14 +116,9 @@ function ActivityText({ item }: { item: Activity }) {
       ) : null}
       <p className="mt-4 text-body-readable text-ink-muted">{item.description}</p>
       {item.link ? (
-        <a
-          href={item.link}
-          target="_blank"
-          rel="noreferrer"
-          className="mt-4 inline-block font-body text-[11px] uppercase tracking-editorial text-accent underline decoration-line underline-offset-4 hover:text-ink"
-        >
+        <ActionLink href={item.link} className="mt-4">
           Watch Video
-        </a>
+        </ActionLink>
       ) : null}
       {item.related ? (
         <div className="mt-8 border-t border-line pt-6">

@@ -1,4 +1,5 @@
 import { FadeIn, SectionHeading } from '../ui/FadeIn'
+import { ActionLink } from '../ui/ActionLink'
 import type { PortfolioData, ResearchItem } from '../../types/portfolio'
 
 type Props = {
@@ -31,14 +32,9 @@ function ResearchItemRow({ item }: { item: ResearchItem }) {
       </p>
       <p className="mt-5 max-w-3xl text-body-readable text-ink-muted">{item.abstract}</p>
       {item.link ? (
-        <a
-          href={item.link}
-          target="_blank"
-          rel="noreferrer"
-          className="mt-5 inline-block font-body text-[11px] uppercase tracking-editorial text-accent underline decoration-line underline-offset-4 hover:text-ink"
-        >
+        <ActionLink href={item.link} className="mt-5">
           Read Publication
-        </a>
+        </ActionLink>
       ) : null}
     </article>
   )

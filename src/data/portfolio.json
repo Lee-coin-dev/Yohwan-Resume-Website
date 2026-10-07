@@ -214,7 +214,9 @@
         "ctDNA Analysis"
       ],
       "summary": "Led the development of an AI platform that integrates Korea Disease Control and Prevention Agency (KDCA) public health datasets to analyze Korean-specific circulating tumor DNA (ctDNA) characteristics. Co-designed biomarker-informed biosensor recommendations by matching ctDNA molecular profiles with chemically compatible biosensing technologies for early cancer detection.",
-      "media": [],
+      "media": [
+        "/images/projects/biosense.png"
+      ],
       "link": "https://biosensegovai.vercel.app/"
     },
     {

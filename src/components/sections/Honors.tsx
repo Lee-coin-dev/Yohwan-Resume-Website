@@ -73,14 +73,14 @@ export function Honors({ data }: Props) {
         </FadeIn>
 
         <div className="space-y-16 md:space-y-20">
-          {school.length ? (
+          {violin.length ? (
             <FadeIn>
-              <HonorGroup title="School Award" items={school} />
+              <HonorGroup title="Violin Honors & Certificate" items={violin} />
             </FadeIn>
           ) : null}
-          {violin.length ? (
+          {school.length ? (
             <FadeIn delay={0.08}>
-              <HonorGroup title="Violin Honors & Certificate" items={violin} />
+              <HonorGroup title="School Award" items={school} />
             </FadeIn>
           ) : null}
           {rowing.length ? (

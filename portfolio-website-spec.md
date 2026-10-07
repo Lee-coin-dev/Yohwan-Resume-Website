@@ -184,6 +184,7 @@ Participated in IDR (Independence Day Regatta) for both 2X and 1X U17 division.
 - image: placeholder
 Biosense AI            							 July 2026 ~ Present
 Project Director
+- image: biosense.png
 Project Url: https://biosensegovai.vercel.app/ 
 Led the development of an AI platform that integrates Korea Disease Control and Prevention Agency (KDCA) public health datasets to analyze Korean-specific circulating tumor DNA (ctDNA) characteristics.
 Co-designed biomarker-informed biosensor recommendations by matching ctDNA molecular profiles with chemically compatible biosensing technologies for early cancer detection.

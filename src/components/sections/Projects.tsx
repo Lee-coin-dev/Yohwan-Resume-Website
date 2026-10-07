@@ -1,4 +1,5 @@
 import { FadeIn, SectionHeading } from '../ui/FadeIn'
+import { ActionLink } from '../ui/ActionLink'
 import { ImagePlaceholder } from '../ui/ImagePlaceholder'
 import type { PortfolioData, Project } from '../../types/portfolio'
 
@@ -67,14 +68,7 @@ function ProjectSpread({
         ) : null}
         <p className="mt-5 text-body-readable text-ink-muted">{project.summary}</p>
         {project.link ? (
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noreferrer"
-            className="mt-6 inline-block font-body text-[11px] uppercase tracking-editorial text-accent underline decoration-line underline-offset-4 transition-colors hover:text-ink"
-          >
-            View Project
-          </a>
+          <ActionLink href={project.link}>View Project</ActionLink>
         ) : null}
       </div>
     </FadeIn>

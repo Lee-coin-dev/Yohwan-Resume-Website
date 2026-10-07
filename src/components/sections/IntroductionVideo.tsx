@@ -1,4 +1,5 @@
 import { FadeIn, SectionHeading } from '../ui/FadeIn'
+import { ActionLink } from '../ui/ActionLink'
 import type { PortfolioData } from '../../types/portfolio'
 
 type Props = {
@@ -22,16 +23,9 @@ export function IntroductionVideo({ data }: Props) {
               allowFullScreen
             />
           </div>
-          <p className="mt-3 font-body text-[11px] text-ink-muted">
-            <a
-              href={data.youtubeUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="underline decoration-line underline-offset-4 hover:text-accent"
-            >
-              Open on YouTube
-            </a>
-          </p>
+          <ActionLink href={data.youtubeUrl} className="mt-5">
+            Open on YouTube
+          </ActionLink>
         </FadeIn>
       </div>
     </section>
