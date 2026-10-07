@@ -68,17 +68,15 @@
   },
   "activities": [
     {
-      "title": "First Violin Section in the Orchestra",
+      "title": "(Varsity) Rowing Crew",
       "org": "St. Andrew's School",
-      "period": "Sep 2023 ~ Present",
-      "role": "Assistant Concert Master / Second Chair",
-      "roles": [
-        { "title": "Assistant Concert Master", "period": "Sep 2024 ~ May 2025" },
-        { "title": "Second Chair", "period": "Sep 2023 ~ May 2024 & Sep 2025 ~ Present" }
+      "period": "Mar 2026 ~ Present",
+      "role": "Stroke Pair / Bow Pair",
+      "description": "Progressed from Freshman 8 as a stroke to bow pair in JV and Varsity boats through consistent athletic development and competitive performance. Competed three times at the Stotesbury Cup Regatta: Freshman 8 semifinalist, JV/ 3V time trialist, and 2nd Senior Varsity boat (2V) semifinalist (Top 10 Time Trial Finish); Finished 4th at the Washington Metropolitan Interscholastic Rowing Association Regatta Finals.",
+      "media": [
+        "/images/activities/RowingV.jpg"
       ],
-      "description": "Selected as Second Chair and Assistant Concert Master based on musical proficiency and leadership within the violin section, leading violin sectionals and assisted with ensemble preparation for concerts, ceremonies, and chapel performances. A member of Chamber Society is selected for the school's premier chamber ensemble based on musical proficiency and performance ability, playing for chapel services and Awards Night during the Graduation week.",
-      "media": ["/images/activities/Violin.jpg"],
-      "layout": "left-large",
+      "layout": "full-bleed",
       "link": null
     },
     {
@@ -94,7 +92,9 @@
         "role": "Grade-Elected Leader",
         "description": "Organized grade-level social events and community-building initiatives including Silent Disco, Semi-Formal, Open Mic Nights, Prom, and themed weekend events, leading event logistics, setup operations, and school-wide communications to maximize student engagement."
       },
-      "media": ["/images/activities/EAA.jpg"],
+      "media": [
+        "/images/activities/EAA.jpg"
+      ],
       "layout": "right-offset",
       "link": null
     },
@@ -109,21 +109,11 @@
       "link": null
     },
     {
-      "title": "Cardinal Society",
+      "title": "Interfaith Council",
       "org": "St. Andrew's School",
-      "period": "Sep 2023 ~ May 2024",
+      "period": "Sep 2025 ~ Present",
       "role": "Member",
-      "description": "Assisted admissions staff during open houses, revisit days, and prospective student events, serving as a liaison between prospective families and the school community.",
-      "media": [],
-      "layout": "text-only",
-      "link": null
-    },
-    {
-      "title": "Math Team",
-      "org": "St. Andrew's School",
-      "period": "Sep 2023 ~ May 2025",
-      "role": "Member",
-      "description": "Earned Division Champion honors during freshman year mathematics competitions and received a silver medal for winning 2nd place in the Delaware Secondary Math League for Freshman A Division.",
+      "description": "Collaborated with council members to develop faith-based initiatives across the school community, running a student question box of anonymous discussions on religious belief, and spirituality with the School Reverend.",
       "media": [],
       "layout": "text-only",
       "link": null
@@ -149,11 +139,55 @@
       "link": null
     },
     {
-      "title": "Interfaith Council",
+      "title": "First Violin Section in the Orchestra",
       "org": "St. Andrew's School",
-      "period": "Sep 2025 ~ Present",
+      "period": "Sep 2023 ~ Present",
+      "role": "Assistant Concert Master / Second Chair",
+      "roles": [
+        {
+          "title": "Assistant Concert Master",
+          "period": "Sep 2024 ~ May 2025"
+        },
+        {
+          "title": "Second Chair",
+          "period": "Sep 2023 ~ May 2024 & Sep 2025 ~ Present"
+        }
+      ],
+      "description": "Selected as Second Chair and Assistant Concert Master based on musical proficiency and leadership within the violin section, leading violin sectionals and assisted with ensemble preparation for concerts, ceremonies, and chapel performances. A member of Chamber Society is selected for the school's premier chamber ensemble based on musical proficiency and performance ability, playing for chapel services and Awards Night during the Graduation week.",
+      "media": [
+        "/images/activities/Violin.jpg"
+      ],
+      "layout": "left-large",
+      "link": null
+    },
+    {
+      "title": "KISRA Crew",
+      "org": "KISRA",
+      "period": "Feb 2023 ~ Present",
+      "role": "2 seat (Stroke) 4X Scull / 2X Scull / 1X Scull",
+      "description": "As a Gyeonggi-do Junior Representative, qualified for the National Finals for 1X U15 division, and received multiple silver medals for all three events: 4X, 2X, and 1X scull. Participated in IDR (Independence Day Regatta) for both 2X and 1X U17 division.",
+      "media": [
+        "/images/activities/KISRA.jpg"
+      ],
+      "layout": "left-small",
+      "link": null
+    },
+    {
+      "title": "Math Team",
+      "org": "St. Andrew's School",
+      "period": "Sep 2023 ~ May 2025",
       "role": "Member",
-      "description": "Collaborated with council members to develop faith-based initiatives across the school community, running a student question box of anonymous discussions on religious belief, and spirituality with the School Reverend.",
+      "description": "Earned Division Champion honors during freshman year mathematics competitions and received a silver medal for winning 2nd place in the Delaware Secondary Math League for Freshman A Division.",
+      "media": [],
+      "layout": "text-only",
+      "link": null
+    },
+    {
+      "title": "Cardinal Society",
+      "org": "St. Andrew's School",
+      "period": "Sep 2023 ~ May 2024",
+      "role": "Member",
+      "description": "Assisted admissions staff during open houses, revisit days, and prospective student events, serving as a liaison between prospective families and the school community.",
       "media": [],
       "layout": "text-only",
       "link": null
@@ -167,26 +201,6 @@
       "media": [],
       "layout": "text-only",
       "link": "https://youtube.com/shorts/LfdsZ7l3edE"
-    },
-    {
-      "title": "(Varsity) Rowing Crew",
-      "org": "St. Andrew's School",
-      "period": "Mar 2026 ~ Present",
-      "role": "Stroke Pair / Bow Pair",
-      "description": "Progressed from Freshman 8 as a stroke to bow pair in JV and Varsity boats through consistent athletic development and competitive performance. Competed three times at the Stotesbury Cup Regatta: Freshman 8 semifinalist, JV/ 3V time trialist, and 2nd Senior Varsity boat (2V) semifinalist (Top 10 Time Trial Finish); Finished 4th at the Washington Metropolitan Interscholastic Rowing Association Regatta Finals.",
-      "media": ["/images/activities/RowingV.jpg"],
-      "layout": "full-bleed",
-      "link": null
-    },
-    {
-      "title": "KISRA Crew",
-      "org": "KISRA",
-      "period": "Feb 2023 ~ Present",
-      "role": "2 seat (Stroke) 4X Scull / 2X Scull / 1X Scull",
-      "description": "As a Gyeonggi-do Junior Representative, qualified for the National Finals for 1X U15 division, and received multiple silver medals for all three events: 4X, 2X, and 1X scull. Participated in IDR (Independence Day Regatta) for both 2X and 1X U17 division.",
-      "media": ["/images/activities/KISRA.jpg"],
-      "layout": "left-small",
-      "link": null
     }
   ],
   "projects": [
@@ -194,7 +208,11 @@
       "title": "Biosense AI",
       "period": "July 2026 ~ Present",
       "role": "Project Director",
-      "tools": ["AI", "KDCA Datasets", "ctDNA Analysis"],
+      "tools": [
+        "AI",
+        "KDCA Datasets",
+        "ctDNA Analysis"
+      ],
       "summary": "Led the development of an AI platform that integrates Korea Disease Control and Prevention Agency (KDCA) public health datasets to analyze Korean-specific circulating tumor DNA (ctDNA) characteristics. Co-designed biomarker-informed biosensor recommendations by matching ctDNA molecular profiles with chemically compatible biosensing technologies for early cancer detection.",
       "media": [],
       "link": "https://biosensegovai.vercel.app/"
@@ -203,7 +221,10 @@
       "title": "Clean Water Project: Row for Pure, Cut through Sweat",
       "period": "Nov 2023 ~ Present",
       "role": "Managing Director of the Project",
-      "tools": ["Trash Net System", "Pet Net Prototype"],
+      "tools": [
+        "Trash Net System",
+        "Pet Net Prototype"
+      ],
       "summary": "Inspired by cleaning up rivers and oceans, led the Trash Net System project, which aims to promote environmentalism among rowers by creating devices that collect trash on the water with rowing boats. Created the Pet Net, the first prototype of the Trash Net System to collect trash.",
       "media": [],
       "youtubeUrl": "https://youtu.be/fKv5-L8ZTfU",
@@ -214,18 +235,29 @@
       "title": "Identity Website Development / AI Vibe-Coding",
       "period": "May 2026 ~ Aug 2026",
       "role": "Project Leader / Front-End Developer",
-      "tools": ["JavaScript", "HTML", "AI Prototyping"],
+      "tools": [
+        "JavaScript",
+        "HTML",
+        "AI Prototyping"
+      ],
       "summary": "As a project leader, founded and led a multidisciplinary team to develop an AI-assisted website, coordinating designers and planners through clear role delegation and communication from concept to implementation. Developed computer language skills and AI prototyping such as Javascript and HTML, applying them to make my own identity portfolio website.",
-      "media": ["/images/projects/IdentityW.png"],
+      "media": [
+        "/images/projects/IdentityW.png"
+      ],
       "link": "https://lee-coin-dev.github.io/Yohwan-Portfolio/"
     },
     {
       "title": "Photojournalism: Korean Spirit, Eol",
       "period": "May 2026 ~ Aug 2026",
       "role": "Main Writer and Editor",
-      "tools": ["Research", "Visual Narrative"],
+      "tools": [
+        "Research",
+        "Visual Narrative"
+      ],
       "summary": "Researched and authored a photojournalism project examining how Seoul's rapid postwar development was driven by the Korean spirit (Eol), combining historical analysis with visual elements. Synthesized historical sources into a cohesive narrative, strengthening research and writing skills.",
-      "media": ["/images/projects/Photojournalism.jpg"],
+      "media": [
+        "/images/projects/Photojournalism.jpg"
+      ],
       "link": null
     }
   ],
@@ -253,12 +285,12 @@
   ],
   "research": [
     {
-      "title": "The Concord Review",
-      "institution": "The Concord Review",
-      "period": "Aug 2025 ~ Nov 2025",
-      "abstract": "Submitted an original research essay, \"The Mirage of the Middle East,\" about how the idea of Orientalism shifted across three distinct time periods in human history, and was waitlisted for publication consideration by The Concord Review.",
-      "publication": "The Concord Review — Waitlisted",
-      "link": "https://docs.google.com/document/d/1Tize74rhQJYRlJm9oEcRvXisDvs6CxX_KGKHywu20iE/edit?tab=t.0",
+      "title": "West Makes East: Greek Imagery of the Persian Empire",
+      "institution": "Social Science and History Journal",
+      "period": "July 2026 ~ Aug 2026",
+      "abstract": "Published an original research article in Social Science and History Journal about how Western identity shaped their own identity through the juxtaposition of Middle Eastern identity, forming a false image of the East.",
+      "publication": "Social Science and History Journal",
+      "link": "https://sshjournal.com/index.php/sshj/article/view/2423",
       "media": []
     },
     {
@@ -271,12 +303,12 @@
       "media": []
     },
     {
-      "title": "West Makes East: Greek Imagery of the Persian Empire",
-      "institution": "Social Science and History Journal",
-      "period": "July 2026 ~ Aug 2026",
-      "abstract": "Published an original research article in Social Science and History Journal about how Western identity shaped their own identity through the juxtaposition of Middle Eastern identity, forming a false image of the East.",
-      "publication": "Social Science and History Journal",
-      "link": "https://sshjournal.com/index.php/sshj/article/view/2423",
+      "title": "The Concord Review",
+      "institution": "The Concord Review",
+      "period": "Aug 2025 ~ Nov 2025",
+      "abstract": "Submitted an original research essay, \"The Mirage of the Middle East,\" about how the idea of Orientalism shifted across three distinct time periods in human history, and was waitlisted for publication consideration by The Concord Review.",
+      "publication": "The Concord Review — Waitlisted",
+      "link": "https://docs.google.com/document/d/1Tize74rhQJYRlJm9oEcRvXisDvs6CxX_KGKHywu20iE/edit?tab=t.0",
       "media": []
     }
   ],
@@ -298,7 +330,9 @@
       "issuer": "ABRSM",
       "date": null,
       "grade": "Merit",
-      "media": ["/images/honors/ABRSM_Grade7.png"]
+      "media": [
+        "/images/honors/ABRSM_Grade7.png"
+      ]
     },
     {
       "type": "certificate",
@@ -307,7 +341,9 @@
       "issuer": "ABRSM",
       "date": null,
       "grade": "Distinction",
-      "media": ["/images/honors/ABRSM_Grade6.png"]
+      "media": [
+        "/images/honors/ABRSM_Grade6.png"
+      ]
     },
     {
       "type": "certificate",
@@ -316,7 +352,9 @@
       "issuer": "ABRSM",
       "date": null,
       "grade": "Merit",
-      "media": ["/images/honors/ABRSM_Music_Theory_Grade_5.png"]
+      "media": [
+        "/images/honors/ABRSM_Music_Theory_Grade_5.png"
+      ]
     },
     {
       "type": "certificate",
@@ -361,7 +399,9 @@
       "issuer": "Misari",
       "date": "2024",
       "grade": "2nd Place",
-      "media": ["/images/honors/rowing/RowingAwards1.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards1.jpg"
+      ]
     },
     {
       "type": "honor",
@@ -370,7 +410,9 @@
       "issuer": "Misari",
       "date": "2024",
       "grade": "3rd Place",
-      "media": ["/images/honors/rowing/RowingAwards2.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards2.jpg"
+      ]
     },
     {
       "type": "honor",
@@ -379,7 +421,9 @@
       "issuer": "Misari",
       "date": "2023",
       "grade": "2nd Place",
-      "media": ["/images/honors/rowing/RowingAwards3.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards3.jpg"
+      ]
     },
     {
       "type": "honor",
@@ -388,7 +432,9 @@
       "issuer": "Misari",
       "date": "2023",
       "grade": "2nd Place",
-      "media": ["/images/honors/rowing/RowingAwards4.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards4.jpg"
+      ]
     },
     {
       "type": "honor",
@@ -397,7 +443,9 @@
       "issuer": "Misari",
       "date": "2023",
       "grade": "2nd Place",
-      "media": ["/images/honors/rowing/RowingAwards5.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards5.jpg"
+      ]
     },
     {
       "type": "honor",
@@ -406,7 +454,9 @@
       "issuer": "Misari",
       "date": "2022",
       "grade": "2nd Place",
-      "media": ["/images/honors/rowing/RowingAwards6.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards6.jpg"
+      ]
     },
     {
       "type": "honor",
@@ -415,7 +465,9 @@
       "issuer": "Misari",
       "date": "2022",
       "grade": "2nd Place",
-      "media": ["/images/honors/rowing/RowingAwards7.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards7.jpg"
+      ]
     },
     {
       "type": "honor",
@@ -424,7 +476,9 @@
       "issuer": "Misari",
       "date": "2022",
       "grade": "2nd Place",
-      "media": ["/images/honors/rowing/RowingAwards8.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards8.jpg"
+      ]
     },
     {
       "type": "honor",
@@ -433,7 +487,9 @@
       "issuer": "Chungju Mayor's Cup",
       "date": "2022",
       "grade": "1st Place",
-      "media": ["/images/honors/rowing/RowingAwards9.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards9.jpg"
+      ]
     },
     {
       "type": "honor",
@@ -442,7 +498,9 @@
       "issuer": "President's Cup",
       "date": null,
       "grade": "3rd Place (U17)",
-      "media": ["/images/honors/rowing/RowingAwards10.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards10.jpg"
+      ]
     },
     {
       "type": "honor",
@@ -451,7 +509,9 @@
       "issuer": "Misari",
       "date": null,
       "grade": "3rd Place (U17)",
-      "media": ["/images/honors/rowing/RowingAwards11.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards11.jpg"
+      ]
     },
     {
       "type": "honor",
@@ -460,7 +520,9 @@
       "issuer": "World Vision",
       "date": "2024",
       "grade": null,
-      "media": ["/images/honors/rowing/RowingAwards12.jpg"]
+      "media": [
+        "/images/honors/rowing/RowingAwards12.jpg"
+      ]
     }
   ],
   "contact": {
@@ -470,14 +532,41 @@
     "address": "Gwangpyeong-ro 51 gil, Gangnam-gu, Seoul, Republic of Korea, 06348"
   },
   "navigation": [
-    { "id": "intro", "label": "Intro" },
-    { "id": "about", "label": "About" },
-    { "id": "academics", "label": "Academics" },
-    { "id": "activities", "label": "Activities" },
-    { "id": "projects", "label": "Projects" },
-    { "id": "volunteer", "label": "Volunteer" },
-    { "id": "research", "label": "Research" },
-    { "id": "honors", "label": "Honors" },
-    { "id": "contact", "label": "Contact" }
+    {
+      "id": "intro",
+      "label": "Intro"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "academics",
+      "label": "Academics"
+    },
+    {
+      "id": "activities",
+      "label": "Activities"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "volunteer",
+      "label": "Volunteer"
+    },
+    {
+      "id": "research",
+      "label": "Research"
+    },
+    {
+      "id": "honors",
+      "label": "Honors"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
   ]
 }
